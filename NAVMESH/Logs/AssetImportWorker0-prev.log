@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 15807 MB
+OS: 'Windows 10 Pro; OS build 19044.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 32673 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\RSseb\Documents\Semestre 5\Graficas computacionales\2020.3.21f1\Editor\Unity.exe
+D:\Program Files\UnityEditor\2020.3.21f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/RSseb/Documents/Semestre 5/Videojuegos/NAVMESH
+C:/Users/PC NASUA/workspace/Graficos/TC2008B.2Graficas/NAVMESH
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50078
-Successfully changed project path to: D:/RSseb/Documents/Semestre 5/Videojuegos/NAVMESH
-D:/RSseb/Documents/Semestre 5/Videojuegos/NAVMESH
+51061
+Successfully changed project path to: C:/Users/PC NASUA/workspace/Graficos/TC2008B.2Graficas/NAVMESH
+C:/Users/PC NASUA/workspace/Graficos/TC2008B.2Graficas/NAVMESH
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
-[Subsystems] Discovering subsystems at path D:/RSseb/Documents/Semestre 5/Graficas computacionales/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/RSseb/Documents/Semestre 5/Videojuegos/NAVMESH/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/UnityEditor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC NASUA/workspace/Graficos/TC2008B.2Graficas/NAVMESH/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.14.9676
+    VRAM:     8041 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'D:/RSseb/Documents/Semestre 5/Graficas computacionales/2020.3.21f1/Editor/Data/Managed'
-Mono path[1] = 'D:/RSseb/Documents/Semestre 5/Graficas computacionales/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/RSseb/Documents/Semestre 5/Graficas computacionales/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Mono path[0] = 'D:/Program Files/UnityEditor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/UnityEditor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/UnityEditor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/RSseb/Documents/Semestre 5/Graficas computacionales/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002285 seconds.
+Register platform support module: D:/Program Files/UnityEditor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000866 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.937 seconds
+- Completed reload, in  0.801 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1937ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (223ms)
+		EndReloadAssembly (283ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (219ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (110ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005594 seconds.
+Registered in 0.003655 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  0.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1391ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (628ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1104ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (468ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
+System memory in use before: 68.7 MB.
+System memory in use after: 68.8 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1939.
-Total: 4.380100 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.046200 ms MarkObjects: 3.998900 ms  DeleteObjects: 0.140100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 2.202100 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.967700 ms  DeleteObjects: 0.043400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,7 +126,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -134,62 +133,1774 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Tree.prefab
   artifactKey: Guid(830e117f2bb9aeb429ec351b73d08883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(830e117f2bb9aeb429ec351b73d08883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf44f3e0db14b54d5c6245316ad59cc') in 0.998013 seconds 
-  Import took 1.001329 seconds .
+Start importing Assets/Tree.prefab using Guid(830e117f2bb9aeb429ec351b73d08883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60325670699dee4018ac3b29625dc5e1') in 0.565874 seconds 
+  Import took 0.568006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.416984 seconds.
-  path: Assets/BrokenVector
-  artifactKey: Guid(7c085fcdb1b34ae49996ae998ba6a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector using Guid(7c085fcdb1b34ae49996ae998ba6a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8835432be4cba3f4603f45d2f8cef596') in 0.008070 seconds 
-  Import took 0.011767 seconds .
+  Time since last request: 67.510145 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(741d6322887231e419822d7e822af0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures using Guid(741d6322887231e419822d7e822af0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29df24790fe57e4e784cd1416786571a') in 0.004573 seconds 
+  Import took 0.006542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470390 seconds.
+  path: Assets/Intento 1 carro.unity
+  artifactKey: Guid(588e378de4f44b64ca65fde5ad0ef8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Intento 1 carro.unity using Guid(588e378de4f44b64ca65fde5ad0ef8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681ccbf4349b2f17e7336324c5d87c29') in 0.004860 seconds 
+  Import took 0.006791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.557225 seconds.
+  path: Assets/Scenes/SampleSceneSettings.lighting
+  artifactKey: Guid(f1b27d8cdd0fa1b41bebe1b6c35fb754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneSettings.lighting using Guid(f1b27d8cdd0fa1b41bebe1b6c35fb754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50192fae949b3d5a0ecbd200fc00ba57') in 0.006026 seconds 
+  Import took 0.007977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905299 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8788fd2933196585cc70987f3dfa35') in 0.004842 seconds 
+  Import took 0.006762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.465422 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(29a8cb2310e8049628f4644f0b41f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(29a8cb2310e8049628f4644f0b41f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b6c8058e1ebabc9ac5931a716b71b6') in 0.004591 seconds 
+  Import took 0.006568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074946 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(fd3418903589fea85a31fb00dfa1a3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(fd3418903589fea85a31fb00dfa1a3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1f947d58354d26aa92594b7c8c7bed') in 0.005785 seconds 
+  Import took 0.007698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.750355 seconds.
+  path: Assets/Intento 1 carro/NavMesh.asset
+  artifactKey: Guid(13e3dc6f51581df48a5546459dc94b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Intento 1 carro/NavMesh.asset using Guid(13e3dc6f51581df48a5546459dc94b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f686f266073be59356822bfb432f817f') in 0.001927 seconds 
+  Import took 0.003835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.044052 seconds.
+  path: Assets/ARCADE - FREE Racing Car/More cars.png
+  artifactKey: Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/More cars.png using Guid(d12c0013fcfea9e4a9ee272bfaaec870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97603a2e85009f73a82b218b9604724') in 0.040925 seconds 
+  Import took 0.042881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.139696 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(8f185b8e78de33548973c6a851efb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(8f185b8e78de33548973c6a851efb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe438d31a43ab99d4f42c031e98bfade') in 0.006960 seconds 
+  Import took 0.008851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(ffa9f2c35aed7d64a851323e20ead6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(ffa9f2c35aed7d64a851323e20ead6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5328ae984689e21a4834407817dbf42f') in 0.056243 seconds 
+  Import took 0.057993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(80f52b19bbfc77b4981d6b002d8a0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(80f52b19bbfc77b4981d6b002d8a0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d3e8a1d0b34e10efc9ef686d412685') in 0.006705 seconds 
+  Import took 0.008340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(95d30bb2b8b7033418f361fbb79a1f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(95d30bb2b8b7033418f361fbb79a1f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00392250dbacfbfac6ce7184e5abc7a9') in 0.006483 seconds 
+  Import took 0.008088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.859396 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Branch_01.prefab
+  artifactKey: Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Branch_01.prefab using Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c7ab463417b2e99d50159ccb5ed63e') in 0.151632 seconds 
+  Import took 0.153709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/ManholeCover.prefab
+  artifactKey: Guid(68b2ca32dc0cdaa4d941a1df55fae058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/ManholeCover.prefab using Guid(68b2ca32dc0cdaa4d941a1df55fae058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693d8c8682a2961d13a97c9cb950e0f8') in 0.161674 seconds 
+  Import took 0.163637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay2.prefab
+  artifactKey: Guid(a2e1e02144a3b7542b80530afe318e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay2.prefab using Guid(a2e1e02144a3b7542b80530afe318e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf7dfc58f36095fac88608cd7ef730f') in 0.023129 seconds 
+  Import took 0.024890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(977989d2fe6005f45b5e95322f725b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Carbon.prefab using Guid(977989d2fe6005f45b5e95322f725b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6388c591dd2f50792ce679fc9b424de6') in 0.205579 seconds 
+  Import took 0.207475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_trunk_door.obj
+  artifactKey: Guid(33106b7662a00bb4c820004aa219df31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_trunk_door.obj using Guid(33106b7662a00bb4c820004aa219df31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf38686254c3865c19f648e295df2c4') in 0.021114 seconds 
+  Import took 0.022806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Road.prefab
+  artifactKey: Guid(b74054c7819af8a458ae5a11853280ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Road.prefab using Guid(b74054c7819af8a458ae5a11853280ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e5a41d4b8526c03f1efe7e2c0b621') in 0.008582 seconds 
+  Import took 0.010491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 1.prefab
+  artifactKey: Guid(61bdc52826fce8f4d82932062de95073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 1.prefab using Guid(61bdc52826fce8f4d82932062de95073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c5ad3ea90bf793fb3bf777cd5d2b4e') in 0.009162 seconds 
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Curve 1.dae
+  artifactKey: Guid(861ccec3a0efad5458d9082800f92467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Curve 1.dae using Guid(861ccec3a0efad5458d9082800f92467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265852cdd9011193e522774795589709') in 0.011803 seconds 
+  Import took 0.013438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Red.fbx
+  artifactKey: Guid(89f34d6067f7736469b3740d4612eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Red.fbx using Guid(89f34d6067f7736469b3740d4612eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c8d145106fc443890a479b9b556f83') in 0.029576 seconds 
+  Import took 0.031164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 3.dae
+  artifactKey: Guid(236b6964c04aad0409d80ab50c92d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 3.dae using Guid(236b6964c04aad0409d80ab50c92d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ffa4789123327fd218c071288f583f') in 0.010259 seconds 
+  Import took 0.011986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.006.dae
+  artifactKey: Guid(f366ec1535b72a841ac031961d69f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.006.dae using Guid(f366ec1535b72a841ac031961d69f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ddbd7c9f57c788f0a290cd7b371d58') in 0.009904 seconds 
+  Import took 0.011543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_body.obj
+  artifactKey: Guid(ec9a826647aec1d41af7e2625bf123a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_body.obj using Guid(ec9a826647aec1d41af7e2625bf123a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6601496f5e2027779d3e9d92449403') in 0.013487 seconds 
+  Import took 0.015164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 1.dae
+  artifactKey: Guid(ef63e826ce0e5e94fa9002fc1c038b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 1.dae using Guid(ef63e826ce0e5e94fa9002fc1c038b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f37d3c24871fbbaed88680a482f0f08') in 0.010793 seconds 
+  Import took 0.012499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Road.prefab
+  artifactKey: Guid(7ff5db574d5d2df479ee7bae7f713787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Road.prefab using Guid(7ff5db574d5d2df479ee7bae7f713787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2475e7df404f189888616d9ddbad59') in 0.008446 seconds 
+  Import took 0.010155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 4.dae
+  artifactKey: Guid(6390c4a61a53b5446adaed9ccacea90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 4.dae using Guid(6390c4a61a53b5446adaed9ccacea90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bc7eea744364c6ca14cfa7b3641d40') in 0.010427 seconds 
+  Import took 0.012018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab
+  artifactKey: Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab using Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47b7063c40d1d88f997f543e391df15') in 0.008449 seconds 
+  Import took 0.010138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 1.prefab
+  artifactKey: Guid(0956ca3f790e2b44eabfe04ddcb999f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 1.prefab using Guid(0956ca3f790e2b44eabfe04ddcb999f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f26d54e68ed89aefcf1a493ea4dbca') in 0.008237 seconds 
+  Import took 0.010146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Gray.fbx
+  artifactKey: Guid(f2845fe9efc6c254eb94d232be76ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Gray.fbx using Guid(f2845fe9efc6c254eb94d232be76ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe21e441eaf013b42e7a2e4ee1947aa') in 0.027161 seconds 
+  Import took 0.028900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/FireHydrant.fbx
+  artifactKey: Guid(157ff7d9fb66b48a4ab2705c6d93be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/FireHydrant.fbx using Guid(157ff7d9fb66b48a4ab2705c6d93be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40806c00c53c8a35890643493d876f0f') in 0.031406 seconds 
+  Import took 0.033092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/50Slsign.fbx
+  artifactKey: Guid(414b0320ff9eb43bf9c6562e2962cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/50Slsign.fbx using Guid(414b0320ff9eb43bf9c6562e2962cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee7e82944fa42a03b685a9ee168da0') in 0.019618 seconds 
+  Import took 0.021279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SimpleNaturePack/Models/Bush_02.fbx
+  artifactKey: Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Bush_02.fbx using Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe419194bb5004725fce52a20803f0b') in 0.009886 seconds 
+  Import took 0.011642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Blue.fbx
+  artifactKey: Guid(1f768f0d5a5dc9e48941608a2f58f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Blue.fbx using Guid(1f768f0d5a5dc9e48941608a2f58f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c7531e4f2b716c8824f6a8b3245a51') in 0.028495 seconds 
+  Import took 0.030231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_door_other.obj
+  artifactKey: Guid(3a22f589f1362ee4fb0a3287a68ad347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_door_other.obj using Guid(3a22f589f1362ee4fb0a3287a68ad347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6cb83ff0d9616ed2093157466a4af3') in 0.023347 seconds 
+  Import took 0.025231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 1.prefab
+  artifactKey: Guid(68199663c6e51f44bae66172807b8014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 1.prefab using Guid(68199663c6e51f44bae66172807b8014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d35714b1da3719201a7481fa92a88f') in 0.007432 seconds 
+  Import took 0.009123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/LeftTurnSign.prefab
+  artifactKey: Guid(8c5e168958e55d44bab492fbecebdfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/LeftTurnSign.prefab using Guid(8c5e168958e55d44bab492fbecebdfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463b1f81d94533f94e1f2e83672a35c6') in 0.010222 seconds 
+  Import took 0.012159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/FireHydrant.prefab
+  artifactKey: Guid(10c9c5bf5053a1b41918cb1ccec3295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/FireHydrant.prefab using Guid(10c9c5bf5053a1b41918cb1ccec3295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfd6c06ebd9bc77988cda91f36d73db') in 0.009246 seconds 
+  Import took 0.011251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_other_glass.obj
+  artifactKey: Guid(e9d50729e8526364fab7a6806e6a23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_other_glass.obj using Guid(e9d50729e8526364fab7a6806e6a23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b8fe93c31409d6b23fdd2b5c3987b3') in 0.050856 seconds 
+  Import took 0.052966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 4.prefab
+  artifactKey: Guid(3981927452c32484d9640b2bf295fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 4.prefab using Guid(3981927452c32484d9640b2bf295fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb70449bea7e087d80da35f9890482b') in 0.007415 seconds 
+  Import took 0.009227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae
+  artifactKey: Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae using Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6b261d06f95fa69767dfe9b7aa3229') in 0.010028 seconds 
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Car 1.dae
+  artifactKey: Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Car 1.dae using Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eed0a31f328de1338f38598816cb1ef') in 0.026460 seconds 
+  Import took 0.028316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_door/style3/door_style3.mat
+  artifactKey: Guid(9eb0e07a479630f478eb9a246179f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_door/style3/door_style3.mat using Guid(9eb0e07a479630f478eb9a246179f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5f894cdd46df27bf88cd038a767b93') in 0.169090 seconds 
+  Import took 0.170818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/Traffic Light.fbx
+  artifactKey: Guid(97347e6614914410fa8839e6cba96397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/Traffic Light.fbx using Guid(97347e6614914410fa8839e6cba96397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f1241a242ce2e95ad18c4ad2d3339d') in 0.037606 seconds 
+  Import took 0.039719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/interior_Car_other_4Mat.mat
+  artifactKey: Guid(4f7f15b82ce81e14db6340a778af3df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/interior_Car_other_4Mat.mat using Guid(4f7f15b82ce81e14db6340a778af3df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e3765a20a300b07d2f188ec7739b29') in 0.008058 seconds 
+  Import took 0.009828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/ParkingMeter.fbx
+  artifactKey: Guid(fcab977a2b144431a85fd4c3e53f3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/ParkingMeter.fbx using Guid(fcab977a2b144431a85fd4c3e53f3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf8d837b4b92c9fdbbe7d1c14f14dfe') in 0.065614 seconds 
+  Import took 0.067661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat
+  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d342c224513dc3c7454406f001c325') in 0.008180 seconds 
+  Import took 0.010009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_wipers.mat
+  artifactKey: Guid(61144c2e5a0c0b2409349cb114292095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_wipers.mat using Guid(61144c2e5a0c0b2409349cb114292095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839aaf55cff01a2ceaffb18769ba6b8d') in 0.007736 seconds 
+  Import took 0.009524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Road.prefab
+  artifactKey: Guid(58cb49345998e1e4ebc99dfa7af32696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Road.prefab using Guid(58cb49345998e1e4ebc99dfa7af32696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c35f00a8b906b856ed1f65cd3d42ce') in 0.008051 seconds 
+  Import took 0.009917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Classic_car_1955/Prefabs/Classic_car_1955_style1.prefab
+  artifactKey: Guid(b2a936b57ff26be4491d67b1f6e532f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Prefabs/Classic_car_1955_style1.prefab using Guid(b2a936b57ff26be4491d67b1f6e532f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f214cb8becd281d26efbc0f71b2a3097') in 0.232644 seconds 
+  Import took 0.239847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_back_back_bumperMat.mat
+  artifactKey: Guid(1802ed95581312e4c82e29cf41d2ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_back_back_bumperMat.mat using Guid(1802ed95581312e4c82e29cf41d2ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37f531db4a8492fb31c8e2a496fe60') in 0.008107 seconds 
+  Import took 0.010054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/CityCarsPack/car_9/prefab/car_9.prefab
+  artifactKey: Guid(1fa81430463ac1749aacf788a8f27dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityCarsPack/car_9/prefab/car_9.prefab using Guid(1fa81430463ac1749aacf788a8f27dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a19bf7402ef3804e43b0710f004eaad') in 0.013296 seconds 
+  Import took 0.015414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/CurvedGuardRail2.fbx
+  artifactKey: Guid(59c796d412fd744078271625b6a81b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/CurvedGuardRail2.fbx using Guid(59c796d412fd744078271625b6a81b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efbae962e788af308314af263f46361') in 0.022049 seconds 
+  Import took 0.023935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 1.dae
+  artifactKey: Guid(aebfc22149f8d2a45a601caf54845bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 1.dae using Guid(aebfc22149f8d2a45a601caf54845bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6e18da5ff46ff4a34fd6ea8dd5e9a7') in 0.010221 seconds 
+  Import took 0.011933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_hood_other.obj
+  artifactKey: Guid(81be502e7d2f0e541be3a24c6d15923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_hood_other.obj using Guid(81be502e7d2f0e541be3a24c6d15923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166e4ec08f9b3a2f6729fd7883f2ee92') in 0.012451 seconds 
+  Import took 0.014201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Road.dae
+  artifactKey: Guid(cfcf77940ff021942bc50517e56d54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Road.dae using Guid(cfcf77940ff021942bc50517e56d54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2c956d707bda2fc0073a95e6c333fd') in 0.010949 seconds 
+  Import took 0.012658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/interior_Car_other_3Mat.mat
+  artifactKey: Guid(f4dd4ca9e2ab2f54f944a559d06b4bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/interior_Car_other_3Mat.mat using Guid(f4dd4ca9e2ab2f54f944a559d06b4bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d793e94d2d975ca14d07ccae046be58') in 0.008051 seconds 
+  Import took 0.009835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/SimpleNaturePack/Models/Ground_03.fbx
+  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebd18912945172fe1e633218cafea6b') in 0.010531 seconds 
+  Import took 0.012155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/IntersectionPole.prefab
+  artifactKey: Guid(5089ee9d9a6d75c4d82b5a179f6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/IntersectionPole.prefab using Guid(5089ee9d9a6d75c4d82b5a179f6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dd6093e92a33696546019bd6f02035') in 0.008830 seconds 
+  Import took 0.010790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(916f361cf05b3c94493197a87a8aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Gray.prefab using Guid(916f361cf05b3c94493197a87a8aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84372472f56ec7f8cb9f1531f5397fa') in 0.008206 seconds 
+  Import took 0.009889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Curve 2.dae
+  artifactKey: Guid(c8674672f487bf348a47866ff0632e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Curve 2.dae using Guid(c8674672f487bf348a47866ff0632e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d24017e8496f68e3dffb35e7bd0c74') in 0.009917 seconds 
+  Import took 0.011567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Classic_car_1955/Prefabs/Classic_car_1955_style3.prefab
+  artifactKey: Guid(e30921d77be085d4bbd8ded0371aa189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Prefabs/Classic_car_1955_style3.prefab using Guid(e30921d77be085d4bbd8ded0371aa189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b63c2946c14e163358f61dd8a801dde') in 0.070714 seconds 
+  Import took 0.077714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 3.prefab
+  artifactKey: Guid(27efc696dd4698a43a8c68ebcf493a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 3.prefab using Guid(27efc696dd4698a43a8c68ebcf493a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2513a3312d3c1a997fd2f52a06a8bd') in 0.007581 seconds 
+  Import took 0.009472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 2.dae
+  artifactKey: Guid(333adb85cff2d42459cd00449998046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 2.dae using Guid(333adb85cff2d42459cd00449998046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54983c72c1d28f9a1670097cae1cbdd') in 0.009455 seconds 
+  Import took 0.011173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/GuardRail Post.prefab
+  artifactKey: Guid(18297b989e2de3c47b4c5895acf13e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/GuardRail Post.prefab using Guid(18297b989e2de3c47b4c5895acf13e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab62e6bb865f29f341f57df32200c387') in 0.007705 seconds 
+  Import took 0.009322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_glass_Light_glassMat.mat
+  artifactKey: Guid(8e18f1ebed1e9744f94b05108b4d5263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_glass_Light_glassMat.mat using Guid(8e18f1ebed1e9744f94b05108b4d5263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f348e21f1414c3fef1126bc025d90f') in 0.008136 seconds 
+  Import took 0.009761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/SimpleNaturePack/Models/Bush_01.fbx
+  artifactKey: Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Bush_01.fbx using Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6b4fc9e851ca600bf6fa4ab8b4c244') in 0.010031 seconds 
+  Import took 0.011795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_hood_other_wipers.obj
+  artifactKey: Guid(722c503598c9335418fb2e826cafee14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_hood_other_wipers.obj using Guid(722c503598c9335418fb2e826cafee14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca1c551e816bb1b3bf35f32596cd197') in 0.015877 seconds 
+  Import took 0.017798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 3.prefab
+  artifactKey: Guid(baf7bb04094c1fe4d994d728999eae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 3.prefab using Guid(baf7bb04094c1fe4d994d728999eae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b89c7da5c8369f7a1f6ca402f80d8d3') in 0.007610 seconds 
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel.mat
+  artifactKey: Guid(dc0e2730d4585ed4a9144030ec498911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_wheel/style1/car_wheel.mat using Guid(dc0e2730d4585ed4a9144030ec498911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a00be03e69d490c1839585264f8f6a0') in 0.014725 seconds 
+  Import took 0.016716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Freeway.dae
+  artifactKey: Guid(0505729b78e21cd4487c9a4940bea4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Freeway.dae using Guid(0505729b78e21cd4487c9a4940bea4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c2ec2cd160bb54fb1b424a69543ef5') in 0.010846 seconds 
+  Import took 0.012589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.002.dae
+  artifactKey: Guid(e9374469e886d8649b6b92c468834057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.002.dae using Guid(e9374469e886d8649b6b92c468834057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a235465a8ea0aed49b6c108bbd4dfca9') in 0.010558 seconds 
+  Import took 0.012312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 2.prefab
+  artifactKey: Guid(51c576822a7a42345b47955233d25adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 2.prefab using Guid(51c576822a7a42345b47955233d25adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184b5287940fc881c7070bc57475624a') in 0.008759 seconds 
+  Import took 0.010828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/Grey Paint.mat
+  artifactKey: Guid(7003f00618f0e41eeb74be74ece156f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/Grey Paint.mat using Guid(7003f00618f0e41eeb74be74ece156f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f41d9b59bbcdc5eec545ba17f4a76') in 0.007268 seconds 
+  Import took 0.008900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2101f0fe9eb15527f7a3eb168c43200a') in 0.008282 seconds 
+  Import took 0.010207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Road.dae
+  artifactKey: Guid(5548c48b8a63235488a0afe4b462749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Road.dae using Guid(5548c48b8a63235488a0afe4b462749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbe801892320ee39386493a8450bf1d') in 0.009663 seconds 
+  Import took 0.011187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/DTA.mat
+  artifactKey: Guid(ea1e02adec22a4e479d7fe5d03b23527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/DTA.mat using Guid(ea1e02adec22a4e479d7fe5d03b23527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7924f3345ade5b93cb27bdab52fff40a') in 0.007941 seconds 
+  Import took 0.009503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.010.dae
+  artifactKey: Guid(960597deba6aae644952d370b3c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.010.dae using Guid(960597deba6aae644952d370b3c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a1a4527811d780a56ef39718152c00') in 0.011399 seconds 
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
+  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e07ae23570b4b788fad9ae00cecfc3d') in 0.009247 seconds 
+  Import took 0.011313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/Glass.mat
+  artifactKey: Guid(543335dea97e74bcf81c6423b732dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/Glass.mat using Guid(543335dea97e74bcf81c6423b732dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6568e200d70ad7ea92effc5c77ab549f') in 0.007686 seconds 
+  Import took 0.009563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/CityCarsPack/car_9/car_9.FBX
+  artifactKey: Guid(316dc7a1600943a4a9232827fc58c5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityCarsPack/car_9/car_9.FBX using Guid(316dc7a1600943a4a9232827fc58c5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d958c7e159a11e1d77fc795a1c9989') in 0.048652 seconds 
+  Import took 0.050946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/car_steering_wheel.mat
+  artifactKey: Guid(6f886f02222f1bb4a8a9fa4d8ffd8325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_interior/car_steering_wheel/style1/car_steering_wheel.mat using Guid(6f886f02222f1bb4a8a9fa4d8ffd8325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2389e2417f00d44e48058c080e356b25') in 0.016869 seconds 
+  Import took 0.019451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 1.prefab
+  artifactKey: Guid(ad182cc030f80d2418924040efeaaedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 1.prefab using Guid(ad182cc030f80d2418924040efeaaedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b319878a4c62427a21953e089397a354') in 0.008064 seconds 
+  Import took 0.009869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/_ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat
+  artifactKey: Guid(0aaef2991becd9d4d8f31d426f3ffcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/_ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1Mat.mat using Guid(0aaef2991becd9d4d8f31d426f3ffcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3508e22e5f2531e7af2be5e3f5fa857') in 0.007842 seconds 
+  Import took 0.009426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/front_window_Windows_Car_body_CarMat.mat
+  artifactKey: Guid(e6a4782fb51f14543b1644a11d4de86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/front_window_Windows_Car_body_CarMat.mat using Guid(e6a4782fb51f14543b1644a11d4de86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43306e6ee050a46b7d96bde4d3eb0fad') in 0.008197 seconds 
+  Import took 0.009808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/Traffic Light2.fbx
+  artifactKey: Guid(b05466bd9959a49bbba0141119955dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/Traffic Light2.fbx using Guid(b05466bd9959a49bbba0141119955dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e39842906b31a098c3f3af48b2100e') in 0.037922 seconds 
+  Import took 0.039583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab
+  artifactKey: Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab using Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187e9ca6513490065230fa7713da8f9') in 0.009310 seconds 
+  Import took 0.011097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 2.dae
+  artifactKey: Guid(d2b804c3ccb706e469c72128589fb32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 2.dae using Guid(d2b804c3ccb706e469c72128589fb32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cc5c711b020ff11cab86c4f439a145') in 0.009781 seconds 
+  Import took 0.011513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_other.mat
+  artifactKey: Guid(8194d2b1b056d17459aec20e9a6ce5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style1/hood_other.mat using Guid(8194d2b1b056d17459aec20e9a6ce5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4355dcfeb08957e46cfcba9629c1f60c') in 0.007702 seconds 
+  Import took 0.009302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.008.dae
+  artifactKey: Guid(2296d07369e67c646b2d0d7f242d8449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.008.dae using Guid(2296d07369e67c646b2d0d7f242d8449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d9e17f393cbd35d43d3b5726c4d63b') in 0.010684 seconds 
+  Import took 0.012447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/Pedestrian Light.fbx
+  artifactKey: Guid(d635aacf8d3b0d24c875283363e8dc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/Pedestrian Light.fbx using Guid(d635aacf8d3b0d24c875283363e8dc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b02a8bf233bb018e4303be5ed74bc3f') in 0.031297 seconds 
+  Import took 0.032935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae
+  artifactKey: Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae using Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686072101e1aa23f74029fc65a44f3f8') in 0.009494 seconds 
+  Import took 0.011209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_wipers_style2.mat
+  artifactKey: Guid(7b50346cdac81bb468c802c8db7e7610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_wipers_style2.mat using Guid(7b50346cdac81bb468c802c8db7e7610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af83e5dfdf71cf3073a2d44515c2003d') in 0.008355 seconds 
+  Import took 0.010005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat
+  artifactKey: Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat using Guid(1968bf9d74d362c408b28c15132baaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b50789ac64187da3997a5da02afaf6') in 0.008838 seconds 
+  Import took 0.010464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail2.prefab
+  artifactKey: Guid(5e2641858c54b814a9b47c6981ce0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail2.prefab using Guid(5e2641858c54b814a9b47c6981ce0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b65591ad1d29c9029ad9a311a41e7a2') in 0.008205 seconds 
+  Import took 0.010161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 2.prefab
+  artifactKey: Guid(e22ea203430a7754fa2d9f5192effac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 2.prefab using Guid(e22ea203430a7754fa2d9f5192effac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49157d68d81cddc4a2ae31782ddc7cf') in 0.008488 seconds 
+  Import took 0.010317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 1.dae
+  artifactKey: Guid(de9f00a88308eb741b7da04ed6699c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 1.dae using Guid(de9f00a88308eb741b7da04ed6699c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fcbd8442fa46acc015cc7844f765e0') in 0.010116 seconds 
+  Import took 0.011841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_interior/style1/car_interior.mat
+  artifactKey: Guid(37e941905cb5b564e84e3f0cfec9ea05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_interior/style1/car_interior.mat using Guid(37e941905cb5b564e84e3f0cfec9ea05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd80702b298870077b878648420f2924') in 0.014528 seconds 
+  Import took 0.016554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Road.prefab
+  artifactKey: Guid(517cd28356a64ae4ca59346763bafa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Road.prefab using Guid(517cd28356a64ae4ca59346763bafa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e23d6daee3aa495fd7eb1328112fa4') in 0.007681 seconds 
+  Import took 0.009347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_interior/style2/interior_carpet_style2.mat
+  artifactKey: Guid(852e0b19721a4dc4cb9528f24e924724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_interior/style2/interior_carpet_style2.mat using Guid(852e0b19721a4dc4cb9528f24e924724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8ee4a30cd7a276b3a9194e54cc6fde') in 0.007219 seconds 
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(ba30d79575a9eff418d68635e8bd06d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Red.prefab using Guid(ba30d79575a9eff418d68635e8bd06d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6826b6151578bb14906cd9f42364d6') in 0.008611 seconds 
+  Import took 0.010413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/50SL.mat
+  artifactKey: Guid(56c0ae10b2fa74051bf48532fb692813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/50SL.mat using Guid(56c0ae10b2fa74051bf48532fb692813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762fbddc222b3b1f88ca5614740c12cc') in 0.008820 seconds 
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/GreenLight.mat
+  artifactKey: Guid(27507546ca8484a42b7e0e58d3012887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/GreenLight.mat using Guid(27507546ca8484a42b7e0e58d3012887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bb3c850ea1eb76500caff2bc45e234') in 0.144151 seconds 
+  Import took 0.146022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Grass_01.prefab
+  artifactKey: Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Grass_01.prefab using Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2860b77fec028f585721c5a4e39888a7') in 0.008328 seconds 
+  Import took 0.010290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 2.prefab
+  artifactKey: Guid(409109bbaa58cf340b5fea204e6aac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 2.prefab using Guid(409109bbaa58cf340b5fea204e6aac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f156c2d8f4e7da6102f556a3b6494c9a') in 0.008921 seconds 
+  Import took 0.011176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway S-Curve.dae
+  artifactKey: Guid(a6f8c6c7f9b109c45b54b4ea3ab2256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway S-Curve.dae using Guid(a6f8c6c7f9b109c45b54b4ea3ab2256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c2fcf8c97f0e84b761331aa7cd1db2') in 0.011466 seconds 
+  Import took 0.013104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fd299e872630f2d76a7991988e8063') in 0.008348 seconds 
+  Import took 0.010034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_interior/style1/car_carpet.mat
+  artifactKey: Guid(9fb66f74a384340468b0fedfefcea401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_interior/style1/car_carpet.mat using Guid(9fb66f74a384340468b0fedfefcea401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c88623eebed99a3d1e25f7f846c512b') in 0.007904 seconds 
+  Import took 0.009677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_01.prefab
+  artifactKey: Guid(ebee340de387f334f9ac44e044abd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_01.prefab using Guid(ebee340de387f334f9ac44e044abd8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b50a1b9af227b34b8cc5b92c0686e3') in 0.008577 seconds 
+  Import took 0.010299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Highway.dae
+  artifactKey: Guid(9737ab9f3cf9c0b4d87af4f5b0108b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Cross Highway.dae using Guid(9737ab9f3cf9c0b4d87af4f5b0108b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee551796724eb4971e489c3b70bba262') in 0.010948 seconds 
+  Import took 0.012666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3.mat
+  artifactKey: Guid(e748e57d279402e4e8f377b00da811f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style3/body_style3.mat using Guid(e748e57d279402e4e8f377b00da811f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66f0876c40ef3c7b98b5c398b0b0116') in 0.014598 seconds 
+  Import took 0.016599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae
+  artifactKey: Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae using Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a369d205857f16182c1b6876c06f92') in 0.009491 seconds 
+  Import took 0.011237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 2.dae
+  artifactKey: Guid(6421912752fc45944a04fb09aae2e8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 2.dae using Guid(6421912752fc45944a04fb09aae2e8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b5949c90c3ffb0da6aa90f10e6c609') in 0.010223 seconds 
+  Import took 0.012011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 1.prefab
+  artifactKey: Guid(b5baae8b9b6343c4484a2886ccff5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 1.prefab using Guid(b5baae8b9b6343c4484a2886ccff5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1afeaf173928094ff3feb4850fccc3e') in 0.008621 seconds 
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab
+  artifactKey: Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab using Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc5bfe3d4db8bede149cec43fb1eb8e') in 0.008188 seconds 
+  Import took 0.010114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_03.prefab
+  artifactKey: Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_03.prefab using Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e234c14fdf54a2802132019de43758eb') in 0.008043 seconds 
+  Import took 0.009863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.004.dae
+  artifactKey: Guid(f9b12965751b78e4d807b064d0420bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.004.dae using Guid(f9b12965751b78e4d807b064d0420bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f647906c29c9df26bae871b22587a9') in 0.012050 seconds 
+  Import took 0.013912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/IntersectionPole.fbx
+  artifactKey: Guid(82174d5760b1044c08087411843af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/IntersectionPole.fbx using Guid(82174d5760b1044c08087411843af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89e75928c3c8cb1265016bb5b1b03d1') in 0.027201 seconds 
+  Import took 0.029079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_wheel.obj
+  artifactKey: Guid(77bc28ee390f2f247a423fcc72fc0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_wheel.obj using Guid(77bc28ee390f2f247a423fcc72fc0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c1f95e8aa0b2961e3293c1cb299915') in 0.011960 seconds 
+  Import took 0.013633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/25SL.mat
+  artifactKey: Guid(ffdcc393190e84459b9f067f0711f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/25SL.mat using Guid(ffdcc393190e84459b9f067f0711f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b1e38729c2743b737951879c1ac37c') in 0.008127 seconds 
+  Import took 0.009953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 1.dae
+  artifactKey: Guid(d515ab1e7b3b8254b942625c58c86f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 1.dae using Guid(d515ab1e7b3b8254b942625c58c86f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f00b86f841b8dd91a0f34efb976b8cf') in 0.009062 seconds 
+  Import took 0.010905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SimpleNaturePack/Models/Grass_02.fbx
+  artifactKey: Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Grass_02.fbx using Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab100b1e7f6de699217e4a13cdece240') in 0.010225 seconds 
+  Import took 0.012020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SimpleNaturePack/Models/Ground_01.fbx
+  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6cab644464b154115c4df50bb144e9') in 0.009956 seconds 
+  Import took 0.011758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway S-Curve.prefab
+  artifactKey: Guid(c551be7c89271e44c8a795eff4869f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway S-Curve.prefab using Guid(c551be7c89271e44c8a795eff4869f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ca6b5bf3baa52362af03dbc9eae39a') in 0.008729 seconds 
+  Import took 0.010433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/MetalPole.prefab
+  artifactKey: Guid(ff0f2161f1d05294f9e6649dee40bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/MetalPole.prefab using Guid(ff0f2161f1d05294f9e6649dee40bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e411ad3249729affd559d5a6f5a3b9') in 0.008659 seconds 
+  Import took 0.010450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9619ade14df210806be8c298b9965a') in 0.009066 seconds 
+  Import took 0.010879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 1.prefab
+  artifactKey: Guid(8d7240f2f0843e442b11595c5465dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 1.prefab using Guid(8d7240f2f0843e442b11595c5465dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1574373e5d801fa5dff916a24e94105') in 0.008372 seconds 
+  Import took 0.010317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SimpleNaturePack/Models/Branch_01.fbx
+  artifactKey: Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Branch_01.fbx using Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1934f82559091474ae7281c179012672') in 0.009272 seconds 
+  Import took 0.011101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_front_front_bumperMat.mat
+  artifactKey: Guid(da0d5a733ff568f48893a17ed684a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_L_small_glass_Small_light_glass_front_front_bumperMat.mat using Guid(da0d5a733ff568f48893a17ed684a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fda57f2e706a788d6f1ad725c1a8bbd') in 0.008295 seconds 
+  Import took 0.009987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/car_interior_lp_uv_car_interior_lp_uv_car_interior_lp_car_interior_lp_car_interior_lp_RetopoGroup1Mat.mat
+  artifactKey: Guid(bdfcdb1b8b5d82c469f498d6472a9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/car_interior_lp_uv_car_interior_lp_uv_car_interior_lp_car_interior_lp_car_interior_lp_RetopoGroup1Mat.mat using Guid(bdfcdb1b8b5d82c469f498d6472a9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f49b89f22c6274b556f75c160341da') in 0.007825 seconds 
+  Import took 0.009758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/StreetLight.fbx
+  artifactKey: Guid(e7b20e47143fe46eb8099e354ef54577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/StreetLight.fbx using Guid(e7b20e47143fe46eb8099e354ef54577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d88b701a99e0bdf144362c2b00c66a6') in 0.022410 seconds 
+  Import took 0.024406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/interior_Car_other_1Mat.mat
+  artifactKey: Guid(5029ccc0a985cc84b87e3c5842805759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/interior_Car_other_1Mat.mat using Guid(5029ccc0a985cc84b87e3c5842805759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37df5d0eb267dc39a97db62c6bc0a94') in 0.008206 seconds 
+  Import took 0.009794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_other_style2.mat
+  artifactKey: Guid(18406ef343aa17e438c156203b914da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style2/hood_other_style2.mat using Guid(18406ef343aa17e438c156203b914da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddde9381d1e42a3270385fb30c378ed') in 0.007930 seconds 
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/BlackPaint 1.mat
+  artifactKey: Guid(41a3d411a1de84c84b11fead088898f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/BlackPaint 1.mat using Guid(41a3d411a1de84c84b11fead088898f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed79c4048407050ad207dd64189b645') in 0.007513 seconds 
+  Import took 0.009058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/car_left_wheel_lp_uv_RetopoGroup1Mat.mat
+  artifactKey: Guid(e6ef65b00a7367a4a877635b3b81ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/car_left_wheel_lp_uv_RetopoGroup1Mat.mat using Guid(e6ef65b00a7367a4a877635b3b81ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2119f3e21df4a6d99bb548c07280ccf8') in 0.008797 seconds 
+  Import took 0.010578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_mat.mat
+  artifactKey: Guid(9624f80480426d64b891ad8725102d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_trunk_door/style1/car_trunk_door_mat.mat using Guid(9624f80480426d64b891ad8725102d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7324958eb940a37b65642be134c07bb') in 0.011226 seconds 
+  Import took 0.012918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/CurvedGuardRail1.fbx
+  artifactKey: Guid(817a78ce01755477f98f9c8e7363ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/CurvedGuardRail1.fbx using Guid(817a78ce01755477f98f9c8e7363ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56de549cfe6f3200c0955b7c66173b92') in 0.023028 seconds 
+  Import took 0.024689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_Light_glass_R_glassMat.mat
+  artifactKey: Guid(ec4a21bdca0bddc458565272a7d676a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_Light_glass_R_glassMat.mat using Guid(ec4a21bdca0bddc458565272a7d676a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500ea9268b60c33835c5e8b77e0840f4') in 0.008131 seconds 
+  Import took 0.009953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 2.prefab
+  artifactKey: Guid(260ff3c3667b2bd4f82382b31d2ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 2.prefab using Guid(260ff3c3667b2bd4f82382b31d2ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f87defb88b74af92248441f35e2bcb') in 0.008460 seconds 
+  Import took 0.010296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourAheadSign.prefab
+  artifactKey: Guid(1678eee6b46391747a54fd607e89c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourAheadSign.prefab using Guid(1678eee6b46391747a54fd607e89c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee03c2c6ef4ba7138022ab901cde2345') in 0.009543 seconds 
+  Import took 0.011301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Lift Highway.prefab
+  artifactKey: Guid(401d27194e0344948b125cf0483f7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Lift Highway.prefab using Guid(401d27194e0344948b125cf0483f7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c69ef687fab5793b5a5d085879eea98') in 0.009002 seconds 
+  Import took 0.010615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Car 2.dae
+  artifactKey: Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Car 2.dae using Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db290a7aa9f9e8379ea8f402b8b75715') in 0.026054 seconds 
+  Import took 0.027703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/car_body_lp_uv_RetopoGroup1Mat.mat
+  artifactKey: Guid(9a44e5dfc5b55024bbeb71c3bade2f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/car_body_lp_uv_RetopoGroup1Mat.mat using Guid(9a44e5dfc5b55024bbeb71c3bade2f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb066aee367685863049e610fde3607') in 0.007849 seconds 
+  Import took 0.009418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/CityCarsPack/car_9/Materials/Glass Light.mat
+  artifactKey: Guid(fa0c2b7fe7b22fa47a7ab5b935392625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityCarsPack/car_9/Materials/Glass Light.mat using Guid(fa0c2b7fe7b22fa47a7ab5b935392625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59f8fcd892c123db360e7e5f6cfdb87') in 0.007726 seconds 
+  Import took 0.009372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Car 1.prefab
+  artifactKey: Guid(9c91ecea7f7dce04facaeb11c977e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Car 1.prefab using Guid(9c91ecea7f7dce04facaeb11c977e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021ce2664564cffe622c27e712ca021d') in 0.008914 seconds 
+  Import took 0.010873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 1.dae
+  artifactKey: Guid(a17f37812c6482942b2b08f8a4b9d2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 1.dae using Guid(a17f37812c6482942b2b08f8a4b9d2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1a00342646e75c5c4aa05d7ffc1cdf') in 0.009089 seconds 
+  Import took 0.010646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay1.prefab
+  artifactKey: Guid(9240689dcd1aa154dad5af7b1f9ace3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/OneWay1.prefab using Guid(9240689dcd1aa154dad5af7b1f9ace3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600530849857b3a0db54c9bad447cc2f') in 0.010409 seconds 
+  Import took 0.012509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/Detour.mat
+  artifactKey: Guid(8cd8b6bc1d46945ee9adee0f55234e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/Detour.mat using Guid(8cd8b6bc1d46945ee9adee0f55234e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb54abfa6704303fb288dc99846fdff2') in 0.009404 seconds 
+  Import took 0.011131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail1.prefab
+  artifactKey: Guid(07c354f3a9eccb748937a0324e7b34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/CurvedGuardRail1.prefab using Guid(07c354f3a9eccb748937a0324e7b34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7500cbef2dc72a4b2af779703d29c738') in 0.009060 seconds 
+  Import took 0.011131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 2.prefab
+  artifactKey: Guid(d2b4c92a59cf1a441bf008ca26395efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 2.prefab using Guid(d2b4c92a59cf1a441bf008ca26395efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68550ed98f7c242db1cad4cf512eef33') in 0.008931 seconds 
+  Import took 0.011065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_interior/style3/interior_carpet_style3.mat
+  artifactKey: Guid(48a18ca9b1571dd42ae3dbe4ab3b32d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_interior/style3/interior_carpet_style3.mat using Guid(48a18ca9b1571dd42ae3dbe4ab3b32d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4800f194601e0e2fbe6ffcbf7550c232') in 0.008325 seconds 
+  Import took 0.010282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Highway.prefab
+  artifactKey: Guid(ea578c43b60d6d4448daa4d3c1ac0e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Highway.prefab using Guid(ea578c43b60d6d4448daa4d3c1ac0e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5557a7e5a9db88188b4a80c1083759d9') in 0.007634 seconds 
+  Import took 0.009341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_style1.mat
+  artifactKey: Guid(df1f13b6a06d719428ce93d94b4f16de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style1/car_body_style1.mat using Guid(df1f13b6a06d719428ce93d94b4f16de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408ac024f0175fea5b86b7e3170418f4') in 0.014561 seconds 
+  Import took 0.016630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/TallPylon.fbx
+  artifactKey: Guid(a26fd01090e0f4294b5e664c20c2bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/TallPylon.fbx using Guid(a26fd01090e0f4294b5e664c20c2bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0d50fc0aba9a3b6fee3a720cc11f53') in 0.021487 seconds 
+  Import took 0.023175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_01.prefab
+  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf8bf1d62996bfb08f12009e42bf260') in 0.007967 seconds 
+  Import took 0.009976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_steering_wheel.obj
+  artifactKey: Guid(d7fcbc47b83faea41b32edb4cac9b05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_steering_wheel.obj using Guid(d7fcbc47b83faea41b32edb4cac9b05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f15ee32a8e8bdff5b8fd988db452e18') in 0.016106 seconds 
+  Import took 0.017695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_door/style2/door_style2.mat
+  artifactKey: Guid(7edfa0b7d3bcbce41ad2cdc0c318029d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_door/style2/door_style2.mat using Guid(7edfa0b7d3bcbce41ad2cdc0c318029d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79add5e2ce736aded9c2b19d4da85b54') in 0.015376 seconds 
+  Import took 0.017969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab using Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806717ef59371415c29229714ab9982a') in 0.008581 seconds 
+  Import took 0.010539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 2.dae
+  artifactKey: Guid(da1a0020a373025418e1119879ed8146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Straight 2.dae using Guid(da1a0020a373025418e1119879ed8146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ba9aea30ffa62ef3d41e68719952a5') in 0.009570 seconds 
+  Import took 0.011265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_interior.obj
+  artifactKey: Guid(6b30dae887b3b6a4b88d6ea33c4408b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_interior.obj using Guid(6b30dae887b3b6a4b88d6ea33c4408b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fde91f54a45485aaf43a41e4e43265') in 0.013034 seconds 
+  Import took 0.014763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Materials/Colorscheme World.mat
+  artifactKey: Guid(2f1688b10bf7ce24abaaffab806fd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Materials/Colorscheme World.mat using Guid(2f1688b10bf7ce24abaaffab806fd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30142b1aa05875e9695bf9bc4785186') in 0.008125 seconds 
+  Import took 0.009807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_02.prefab
+  artifactKey: Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_02.prefab using Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59896112943515b633939025e2ea308f') in 0.008338 seconds 
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.007.dae
+  artifactKey: Guid(3e00f6b092fa0844290d6e031b6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.007.dae using Guid(3e00f6b092fa0844290d6e031b6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2da68db01a55fc1b2916a20e971bf81') in 0.010535 seconds 
+  Import took 0.012313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/baggage_doorMat.mat
+  artifactKey: Guid(ce423d32e39da254a9e05d5d7ea73172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/baggage_doorMat.mat using Guid(ce423d32e39da254a9e05d5d7ea73172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1359295d75a87949a572926d3a9cce') in 0.007875 seconds 
+  Import took 0.009485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd523709956b1a2ab47a6bf17aab31a6') in 0.008900 seconds 
+  Import took 0.010582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/100Slsign.fbx
+  artifactKey: Guid(8935d456f0a48414fadd5c6cbbecab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/100Slsign.fbx using Guid(8935d456f0a48414fadd5c6cbbecab52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48fd27282afae82d83977ccba5d242f') in 0.020249 seconds 
+  Import took 0.021995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.001.dae
+  artifactKey: Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.001.dae using Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dc172e3a8091bbfbdc73b590eeb3b8') in 0.009560 seconds 
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.003.dae
+  artifactKey: Guid(b2458df65032dda41b5421b69f657d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.003.dae using Guid(b2458df65032dda41b5421b69f657d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214ae71417d7b2afa296a4c2880fea86') in 0.011137 seconds 
+  Import took 0.012899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_back_back_bumper_L_small_glass2Mat.mat
+  artifactKey: Guid(0aa163a2a58871d489840a31979d05aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_back_back_bumper_L_small_glass2Mat.mat using Guid(0aa163a2a58871d489840a31979d05aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b5c804a37a88c4119494d9dc6801da') in 0.008163 seconds 
+  Import took 0.009812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_front_front_bumper_L_small_glass1Mat.mat
+  artifactKey: Guid(6126c20e2a6c1e544a9d57ac6c9f0f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/Car_body_Car_Small_light_glass_front_front_bumper_L_small_glass1Mat.mat using Guid(6126c20e2a6c1e544a9d57ac6c9f0f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd136edb59b8600d86ed9b4d04107ba7b') in 0.007817 seconds 
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Freeway.prefab
+  artifactKey: Guid(67b75b5f8253ef64c9aaab70b17ec06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Freeway.prefab using Guid(67b75b5f8253ef64c9aaab70b17ec06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44469bf8e4ec88497db5790c3e401ac4') in 0.008840 seconds 
+  Import took 0.010638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/100SL.mat
+  artifactKey: Guid(eb86eef59b04d4572b19429a6bf3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/100SL.mat using Guid(eb86eef59b04d4572b19429a6bf3d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899c1653dbc0b116feecb78c9ed09f1d') in 0.008395 seconds 
+  Import took 0.010315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/Detourahead Diffuse Color.mat
+  artifactKey: Guid(3c381888500cd4958961de0981e71514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/Detourahead Diffuse Color.mat using Guid(3c381888500cd4958961de0981e71514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543b02a3a79056ca3f3a0ee734d03ef6') in 0.008675 seconds 
+  Import took 0.010544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_other_style3.mat
+  artifactKey: Guid(6c062520a7da5aa4e98620154e2068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_other_style3.mat using Guid(6c062520a7da5aa4e98620154e2068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0e53a5a1131a1bddd5d5b8f1ad37f1') in 0.041867 seconds 
+  Import took 0.043694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Meshes/DiamondSign.fbx
+  artifactKey: Guid(8c6cab87e3fbf475faa14887074d80b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Meshes/DiamondSign.fbx using Guid(8c6cab87e3fbf475faa14887074d80b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2f3330886cd9ce2f4bb31281682a29') in 0.022065 seconds 
+  Import took 0.023796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae
+  artifactKey: Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae using Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5218651d94b1d285a4b08b5815c9467') in 0.009418 seconds 
+  Import took 0.011096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/DontWalk.mat
+  artifactKey: Guid(5242988dbba924b089d437209cb92f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/DontWalk.mat using Guid(5242988dbba924b089d437209cb92f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1327c3c680826b846c6c2477967086') in 0.007827 seconds 
+  Import took 0.009558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway S-Curve.prefab
+  artifactKey: Guid(b21431263a66fd84ebb8c5a9f3e51709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway S-Curve.prefab using Guid(b21431263a66fd84ebb8c5a9f3e51709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c7482635534b56dcd42fc313c3014c') in 0.008100 seconds 
+  Import took 0.010055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Grass_02.prefab
+  artifactKey: Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Grass_02.prefab using Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd3472c2b6b5dc05f4412017969df3') in 0.007450 seconds 
+  Import took 0.009151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Classic_car_1955/Prefabs/Classic_car_1955_style2.prefab
+  artifactKey: Guid(7a25960f713fe57438d4cbbe9bb24825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Prefabs/Classic_car_1955_style2.prefab using Guid(7a25960f713fe57438d4cbbe9bb24825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37156424e21fb704fd4e3d3f17fe3f5') in 0.072953 seconds 
+  Import took 0.080052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Yellow.fbx
+  artifactKey: Guid(30aed299437d3c64aaf1214d48491023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Yellow.fbx using Guid(30aed299437d3c64aaf1214d48491023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25df288f47222fa17348c503e3cab233') in 0.028936 seconds 
+  Import took 0.030694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_interior/style1/interior_other.mat
+  artifactKey: Guid(4422672972024bf46a1a2917ae2388ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_interior/style1/interior_other.mat using Guid(4422672972024bf46a1a2917ae2388ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c8aa6a4c9e7f10db2a94f7305cbd10') in 0.007924 seconds 
+  Import took 0.009649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.009.dae
+  artifactKey: Guid(46908de83c0ca15498206df2dc007ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.009.dae using Guid(46908de83c0ca15498206df2dc007ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03513d9fa678f65e3a6af7000cffb75') in 0.012069 seconds 
+  Import took 0.013911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/SimpleNaturePack/Models/Grass_01.fbx
+  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8fade625e5dafc8953477508e3cf78') in 0.009949 seconds 
+  Import took 0.011746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/CityCarsPack/car_9/Materials/Glass_.mat
+  artifactKey: Guid(55531ed1e13113f4c8771a3099d98eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityCarsPack/car_9/Materials/Glass_.mat using Guid(55531ed1e13113f4c8771a3099d98eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13e240a1505afc2d51138e7a425969a') in 0.007817 seconds 
+  Import took 0.009674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Freeway.dae
+  artifactKey: Guid(72eb0d530cf26e74caefec9fd65ad0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Freeway.dae using Guid(72eb0d530cf26e74caefec9fd65ad0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8451c2d4376e101463ba8e5b2e44f0') in 0.010329 seconds 
+  Import took 0.012177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 1.prefab
+  artifactKey: Guid(6373f7d3f749b254081c2c8c9372face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 1.prefab using Guid(6373f7d3f749b254081c2c8c9372face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc2351e235a4661c9eafe5c59c9e641') in 0.008356 seconds 
+  Import took 0.010318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Lift Highway.dae
+  artifactKey: Guid(2357264b94c408a409585f9979a3990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Lift Highway.dae using Guid(2357264b94c408a409585f9979a3990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f242792772c7d061c3d48b56ab5898c') in 0.009827 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae
+  artifactKey: Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae using Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ebdd9d2fb8597fdaf1b09c81c27148') in 0.011773 seconds 
+  Import took 0.013503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_other_carpet_treadle.obj
+  artifactKey: Guid(5caedf7773f5a2341abc73b9277bd02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_other_carpet_treadle.obj using Guid(5caedf7773f5a2341abc73b9277bd02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777fcd38a4660c85d227ebe06b5c9163') in 0.027379 seconds 
+  Import took 0.029005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SimpleNaturePack/Models/Ground_02.fbx
+  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eecf903bce0e3c9e5d2fcedab7df5f1') in 0.010499 seconds 
+  Import took 0.012206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae
+  artifactKey: Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae using Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7181e7ec050dcb8ccd7d63313211bf7b') in 0.009004 seconds 
+  Import took 0.010780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 1.mat
+  artifactKey: Guid(3889c423b8feed645aeba90d0e940408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 1.mat using Guid(3889c423b8feed645aeba90d0e940408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da67bc00f9ceeb6e8a8fff7aa46c4add') in 0.008590 seconds 
+  Import took 0.010553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style2/body_style2.mat
+  artifactKey: Guid(ca1ae15536db3be438e0878a8339ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style2/body_style2.mat using Guid(ca1ae15536db3be438e0878a8339ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5b93af427f1868cc3b121b3b5631ea') in 0.015518 seconds 
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 2.prefab
+  artifactKey: Guid(5687d55acdf3c094aa163098fed8dbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 2.prefab using Guid(5687d55acdf3c094aa163098fed8dbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9973ca7520399a8cf2d25e11101a1d') in 0.008771 seconds 
+  Import took 0.010709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door.mat
+  artifactKey: Guid(dc1a2a6575eb15343867617d95dc5787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_door/style1/car_door.mat using Guid(dc1a2a6575eb15343867617d95dc5787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fbce4eccad2237cccbaed7a18b0450') in 0.014993 seconds 
+  Import took 0.016995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e06383c2095f0240f7648fcd2130c3a') in 0.008718 seconds 
+  Import took 0.010729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Materials/Grass.mat
+  artifactKey: Guid(d069dd4398675764291f9c82e7286e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Materials/Grass.mat using Guid(d069dd4398675764291f9c82e7286e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16537bf26dc2689945905aa2a85f2c65') in 0.008705 seconds 
+  Import took 0.010589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourSign 1.prefab
+  artifactKey: Guid(aea1cd41ef2b49847b403245fc895761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/NEWPrefabs/DetourSign 1.prefab using Guid(aea1cd41ef2b49847b403245fc895761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0707b857319d9c9e2b94bcd277cf5d4c') in 0.008988 seconds 
+  Import took 0.010796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 1.prefab
+  artifactKey: Guid(aa844cbc7cd603f45b3a56fed001aee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 1.prefab using Guid(aa844cbc7cd603f45b3a56fed001aee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a69576e489afa98f1b5697670fe828') in 0.009474 seconds 
+  Import took 0.011191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Classic_car_1955/Car_obj/Materials/car_steering_wheel_new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1_polySurface2Mat.mat
+  artifactKey: Guid(15f079c94821ba143ad8a9daaaa6da7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/Materials/car_steering_wheel_new_steeringwheel_car_steering_wheel__ar_interior_controlWheelrul_lp_uv_car_interior_lp_RetopoGroup1_polySurface2Mat.mat using Guid(15f079c94821ba143ad8a9daaaa6da7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b8b05d9587691f499fbcc1a376dcae') in 0.008628 seconds 
+  Import took 0.010421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_wipers_style3.mat
+  artifactKey: Guid(cb5b4d0de8c488844a20a89932400ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_body/style3/hood_wipers_style3.mat using Guid(cb5b4d0de8c488844a20a89932400ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2b99aa0f9307c8b479f11aad45f68b') in 0.007831 seconds 
+  Import took 0.009553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Freeway.prefab
+  artifactKey: Guid(d1e269106cb165145985fd4f36cd816f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Freeway.prefab using Guid(d1e269106cb165145985fd4f36cd816f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccefb3d73d94764b8a576dcffe508733') in 0.008705 seconds 
+  Import took 0.010609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 1.prefab
+  artifactKey: Guid(66ec34d11111716468cb9de6c840b423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 1.prefab using Guid(66ec34d11111716468cb9de6c840b423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4876f0a147d95be4d919a6ac6a8d3b10') in 0.007941 seconds 
+  Import took 0.009980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab using Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28344e1677bd8d7eedae4dd5ced4cf6') in 0.009759 seconds 
+  Import took 0.011625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Traffic Essentials Asset Pack/Materials/BlackPaint.mat
+  artifactKey: Guid(18a992811b6774a84a3cb0c76dfea090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Essentials Asset Pack/Materials/BlackPaint.mat using Guid(18a992811b6774a84a3cb0c76dfea090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9645a2ea8b3063c70bc97885ab0a24') in 0.008168 seconds 
+  Import took 0.010016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 2.prefab
+  artifactKey: Guid(ea8ec36c7f9b40f4faa40bf80afec5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 2.prefab using Guid(ea8ec36c7f9b40f4faa40bf80afec5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a934de245d479b10c1ab62466a015f') in 0.007894 seconds 
+  Import took 0.009631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/CityCarsPack/car_9/Materials/Glass.mat
+  artifactKey: Guid(f6ad61d347f62604fad9d7e4cd8c5ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CityCarsPack/car_9/Materials/Glass.mat using Guid(f6ad61d347f62604fad9d7e4cd8c5ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99cbf6262200850eb1a5dd871ce09c4') in 0.009908 seconds 
+  Import took 0.011479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Classic_car_1955/Car_obj/car_door.obj
+  artifactKey: Guid(c9d42372c2b539d4c8dd6ea1966e862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_obj/car_door.obj using Guid(c9d42372c2b539d4c8dd6ea1966e862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3229ad443ab1f9b5f4eaaf10d6fb25e0') in 0.015237 seconds 
+  Import took 0.016801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 2.prefab
+  artifactKey: Guid(f78f74ffdc7f6c84bbc45b41161fb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 2.prefab using Guid(f78f74ffdc7f6c84bbc45b41161fb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a01b6904693a853256f9bad0751b4aa') in 0.008097 seconds 
+  Import took 0.009759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Carbon.fbx
+  artifactKey: Guid(09f57a5ba9f33584a8118fed10afd1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/Free_Racing_Car_Carbon.fbx using Guid(09f57a5ba9f33584a8118fed10afd1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13a52dc3bb9f7d5206f005a5a69c359') in 0.031226 seconds 
+  Import took 0.032998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Classic_car_1955/Car_materials/car_exterior/car_glass/car_glass.mat
+  artifactKey: Guid(58163199c6f82d44296d9a9287d5a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic_car_1955/Car_materials/car_exterior/car_glass/car_glass.mat using Guid(58163199c6f82d44296d9a9287d5a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba2e2fd1440150987aa91c3bf6ddb6') in 0.008400 seconds 
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_02.prefab
+  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b054a050563da85650452e8f44c1a74e') in 0.008910 seconds 
+  Import took 0.010739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 2.prefab
+  artifactKey: Guid(25e5c01865542e449bf00fcc40da6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 2.prefab using Guid(25e5c01865542e449bf00fcc40da6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14da295f4921d8a029c65d2af153261') in 0.008757 seconds 
+  Import took 0.010469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.005.dae
+  artifactKey: Guid(9cc9d043ba5c64744aef14901c30eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.005.dae using Guid(9cc9d043ba5c64744aef14901c30eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f70b5d6bbcbc3d075d4e1a3b509c88') in 0.011884 seconds 
+  Import took 0.013605 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005511 seconds.
+Registered in 0.003531 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.186 seconds
+- Completed reload, in  0.631 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1186ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (966ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.0 MB.
-System memory in use after: 73.1 MB.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1984.
-Total: 3.636300 ms (FindLiveObjects: 0.210400 ms CreateObjectMapping: 0.044300 ms MarkObjects: 3.359200 ms  DeleteObjects: 0.020500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.789500 ms (FindLiveObjects: 0.138200 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.558400 ms  DeleteObjects: 0.047800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -198,24 +1909,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 687.752833 seconds.
-  path: Assets/Classic_car_1955
-  artifactKey: Guid(72310e48cee81924498712315c94e1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classic_car_1955 using Guid(72310e48cee81924498712315c94e1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc31a469d1cde0516499b777cee814') in 0.011753 seconds 
-  Import took 0.015008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.810789 seconds.
-  path: Assets/Classic_car_1955/car_scene.unity
-  artifactKey: Guid(6feeabb58cb781b4fba65100c60c3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classic_car_1955/car_scene.unity using Guid(6feeabb58cb781b4fba65100c60c3b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477374c1888bbe693769e8095a1f9c86') in 0.018010 seconds 
-  Import took 0.020840 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
