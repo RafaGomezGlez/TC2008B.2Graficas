@@ -6,5 +6,6 @@ using System;
 [Serializable]
 public class Data
 {
-    public Position[] data;
+    public Car[] cars;
+    public TrafficLights[] lights;
 }

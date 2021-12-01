@@ -4,7 +4,8 @@ using UnityEngine;
 using System;
 
 [Serializable]
-public class Position
+public class Car
 {
-    public float id,x,y,z;
+    public int id;
+    public float x,y,z; //Invertir z con y en movimiento
 }
